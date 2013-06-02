@@ -1,0 +1,13 @@
+[
+    {
+        "id" : "global",
+        "version" : 0.1
+    },{
+        "id" : "database",
+        "host": "localhost",
+        "user": "root",
+        "password": "",
+        "database": "dataanalyse2",
+        "multipleStatements" : true
+    }
+]
