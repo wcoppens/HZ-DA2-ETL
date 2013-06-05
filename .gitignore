@@ -2,5 +2,5 @@
 .idea/
 *.iml
 *.iws
-./node_modules/
-./config/global.json
+node_modules/
+config/global.json
