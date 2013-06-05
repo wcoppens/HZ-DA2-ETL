@@ -1,0 +1,23 @@
+{
+    "name": "HZ-DA2-ETL",
+    "version": "0.0.1",
+    "private": true,
+    "description": "NodeJS based ETL process for a energy project at HZ University of applied sciences",
+    "engines": { "node": ">=0.8.0" },
+    "author": "Wesley Coppens <w.coppens@enerlogic.nl>",
+    "dependencies": {
+        "asciimo": "*",
+        "async": "*",
+        "colors": "*",
+        "commander": "*",
+        "debug": "*",
+        "line-reader": "*",
+        "lodash": "*",
+        "mysql": "2.0.0-alpha8",
+        "moment": "*"
+    },
+    "repository" : {
+        "type":"git",
+        "url":"https://github.com/wcoppens/HZ-DA2-ETL.git" },
+    "main": "./index.js"
+}
