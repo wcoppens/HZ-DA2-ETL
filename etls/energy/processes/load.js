@@ -17,7 +17,7 @@ function load(etl) {
 
     etl.prototype.syncInterval = function(self, callback) {
 
-        self.sqlConnection.query('INSERT INTO consumptions(consumption, datetime, meter_id) VALUES ?', [self.queryIntervalValues], function(err) {
+        self.sqlConnection.query('INSERT INTO consumptions(consumption, datetime, meter_id, rate) VALUES ?', [self.queryIntervalValues], function(err) {
 
             if(err) {
                 debug('::sync Insert of new interval consumptions failed with: '+err);
